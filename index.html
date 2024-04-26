@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .cabecalho {
+            background-color: #ffffff;
+            color: #000000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 24px 0;
+        }
+
+        .cabecalho-imagem {
+            width: 20%;
+        }
+
+        .cabecalho-lista-item {
+            display: inline-block;
+            margin: 0 16px;
+            color: #000000;
+            font-size: 24px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+
+        .inicio {
+            background: linear-gradient(#00000000, #000000), url("background-img.png");
+            height: 450px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            position: relative;
+        }
+
+        .parana-img {
+            width: 30%;
+        }
+
+        .inicio-titulo {
+            color: white;
+            font-size: 128px;
+            font-weight: 900;
+        }
+
+        .inicio-subtitulo {
+            color: white;
+            font-size: 36px;
+            font-weight: 600;
+        }
+        
+        .inicio-lista {
+            list-style: none; 
+            padding: 0;
+            margin: 0; 
+        }
+
+        .inicio-lista-item {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="HeaderLogo.png" alt="logo do colegio">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Início</li>
+            <li class="cabecalho-lista-item">Contato</li>
+            <li class="cabecalho-lista-item">Matrículas</li>
+        </ul>
+    </header>
+    <section class="inicio">
+        <div class="inicio-div-conteudo" id="grad1">
+            <ul class="inicio-lista">
+                <li class="inicio-lista-item"><h1 class="inicio-titulo">Bem-vindo!</h1></li>
+                <li class="inicio-lista-item"></li><h2 class="inicio-subtitulo">A MELHOR FORMAÇÃO PÚBLICA DO ESTADO</h2></li>
+                <li class="inicio-lista-item"><img class="parana-img" src="parana.png" alt="logo parana"></li>
+            </ul>
+           
+        </div>
+    </section>
+</body>
+
+</html>
